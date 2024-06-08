@@ -1,5 +1,5 @@
 // Problem: 1
-/* function anaToVori(ana) {
+function anaToVori(ana) {
     if (typeof ana != 'number') {
         return ('Enter the Number')
     }
@@ -7,7 +7,7 @@
     return vori;
 }
 const voriResult = anaToVori(64);
-console.log(voriResult); */
+console.log(voriResult);
 
 
 
@@ -31,7 +31,7 @@ console.log(totalCost);
 
 
 // Problem: 3
-/* function picnicBudget(persions) {
+function picnicBudget(persions) {
     const frist100Persion = 5000;
     const second100Persion = 4000;
     const thirdRestPersion = 3000;
@@ -57,14 +57,14 @@ console.log(totalCost);
 }
 
 const picnicBudgetResults = picnicBudget(201);
-console.log(picnicBudgetResults); */
+console.log(picnicBudgetResults);
 
 
 
 
 
 // Problem: 4
-/* const friendNames = ['rana', 'rabi', 'jobaer', 'imran', 'halim'];
+const friendNames = ['rana', 'rabi', 'jobaer', 'imran', 'halim'];
 function oddFriend(names) {
     let oddName = [];
     for (let i = 0; i < names.length; i++) {
@@ -77,4 +77,4 @@ function oddFriend(names) {
 
 }
 const friendsNames = oddFriend(friendNames);
-console.log(friendsNames); */
+console.log(friendsNames);
